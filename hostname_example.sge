@@ -1,0 +1,7 @@
+#!/bin/bash
+#$ -cwd
+#$ -S /bin/bash
+#$ -N hostname_jobname
+#$ -o hostname.out
+#$ -e hostname.err
+hostname
